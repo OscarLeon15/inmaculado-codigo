@@ -5,25 +5,47 @@
 body{
     font-family: sans-serif;
     /* background-color: lightgreen; */
+    color: red;
 }
 img{
     width: 100px;
 }
 .back-image{
-    background-image: url("./Cybergirl.jpg");
+    background-image: url("../images/Cybergirl.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .nav-bar{
-    background-color: lightgray;
+    /* background-color: lightgray; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 110px;
 }
 .nav-contents-right{
     margin-right: 30px;
+    font-size: 35px;
+}
+.nav-contents-right a{
+    text-decoration: none;
+    color: red;
+}
+.nav-contents-right a:hover{
+    text-decoration: none;
+    color: green;
 }
 .nav-contents-left{
     margin-left: 30px;
+}
+.nav-contents-left img{
+    background-color: lightgray;
+    margin-left: 30px;
+}
+/* section 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#section1{
+    padding-top: 120px;
 }
