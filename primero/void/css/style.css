@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    /* background-color: lightgreen; */
+}
+img{
+    width: 100px;
+}
+.back-image{
+    background-image: url("./Cybergirl.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bar{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-contents-right{
+    margin-right: 30px;
+}
+.nav-contents-left{
+    margin-left: 30px;
+}
